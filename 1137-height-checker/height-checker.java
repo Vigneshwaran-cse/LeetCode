@@ -5,8 +5,8 @@ class Solution {
         for(int i=0;i<heights.length;i++){
             ex[i]=heights[i];
         }
-        Arrays.sort(heights);
-        /*
+        
+        
         for(int i=0;i<heights.length;i++){
             for(int j=0;j<heights.length-i-1;j++){
                 if(heights[j]>heights[j+1])
@@ -16,7 +16,7 @@ class Solution {
                     heights[j+1]=temp;
                 }
             }
-        }*/
+        }
         for(int p=0;p<heights.length;p++)
         {
             if(heights[p]!=ex[p])
